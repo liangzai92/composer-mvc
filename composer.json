@@ -1,0 +1,14 @@
+{
+  "name": "composer mvc",
+  "description": "a mvc framework use composer",
+  "require": {
+    "codingbean/macaw": "dev-master",
+    "illuminate/database": "*",
+    "filp/whoops": "*",
+    "nette/mail": "*",
+    "predis/predis": "*"
+  },
+  "autoload": {
+    "classmap": ["app/controllers", "app/models", "services"]
+  }
+}

@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+.vscode
+Thumbs.db
+
+node_modules/
+dist/
+npm-debug.log
+
+/vendor
+composer.phar
+*.rdb
+
+.github.sh
